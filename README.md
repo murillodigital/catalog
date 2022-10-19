@@ -7,7 +7,3 @@
 Just add the chart to `./charts` and the let the GH Action do the rest. 
 
 ## Test
-```
-helm repo add tony https://tonyjchong.github.io/weave-profiles
-helm search repo tony
-helm install 
