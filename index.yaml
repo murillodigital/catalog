@@ -243,6 +243,16 @@ entries:
   catalog:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-10-20T23:12:07.017889098Z"
+    description: Weaveworks Template Catalog
+    digest: 50b46666d6815399e15eab6d03479becdbcc5a1ab93992ade01b5bdebfff5363
+    name: catalog
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/catalog-0.0.17/catalog-0.0.17.tgz
+    version: 0.0.17
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-10-20T18:03:19.371952377Z"
     description: Weaveworks Template Catalog
     digest: 888bd7d8dfcd6b4ab5e6ee236621af40c6a09c7cbc9a8889d52d0ba00bad65e6
@@ -4606,4 +4616,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/zookeeper-0.0.1/zookeeper-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-20T18:03:31.633040471Z"
+generated: "2022-10-20T23:12:07.020151484Z"
