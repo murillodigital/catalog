@@ -1,5 +1,3 @@
-
-
 policy-agent:
   image: weaveworks/policy-agent
   failurePolicy: Ignore
