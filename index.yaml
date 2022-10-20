@@ -38,6 +38,21 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/cert-manager-0.0.8/cert-manager-0.0.8.tgz
     version: 0.0.8
+  pci-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: pci-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-20T17:27:12.002533503Z"
+    description: A Helm chart for Kubernetes
+    digest: e0f50dbec8c0abcf488d87555d046d8940dc1eb29445c076b87b38cc9ea955f6
+    name: pci-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/pci-policies-0.1.0/pci-policies-0.1.0.tgz
+    version: 0.1.0
   weave-policy-agent:
   - annotations:
       weave.works/category: Policy
@@ -71,4 +86,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/weave-policy-agent-0.6.1/weave-policy-agent-0.6.1.tgz
     version: 0.6.1
-generated: "2022-10-20T17:24:59.614291009Z"
+generated: "2022-10-20T17:27:12.002538303Z"
