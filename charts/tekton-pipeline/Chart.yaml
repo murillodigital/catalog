@@ -8,7 +8,7 @@ dependencies:
     version: "0.29"
     repository: "https://cdfoundation.github.io/tekton-helm-chart/"
 kubeVersion: ">=1.16.0-0"
-home: https://github.com/murillodigital/gitops-profiles
+home: https://github.com/weavegitops/catalog
 sources:
   - https://cdfoundation.github.io/tekton-helm-chart
 

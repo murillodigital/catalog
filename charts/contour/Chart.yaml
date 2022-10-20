@@ -8,7 +8,7 @@ dependencies:
     version: "9.1.6"
     repository: "https://charts.bitnami.com/bitnami"
 kubeVersion: ">=1.16.0-0"
-home: https://github.com/murillodigital/gitops-profiles
+home: https://github.com/weavegitops/catalog
 sources:
   - https://charts.bitnami.com/bitnami
 
