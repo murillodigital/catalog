@@ -38,6 +38,36 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/cert-manager-0.0.8/cert-manager-0.0.8.tgz
     version: 0.0.8
+  hipaa-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: hipaa-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-20T17:28:58.990845083Z"
+    description: A Helm chart for Kubernetes
+    digest: 7ffc186567c13a92e03c8e78d7df315d2b3dd50883dc233990fb73fb4c259992
+    name: hipaa-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/hipaa-policies-0.1.0/hipaa-policies-0.1.0.tgz
+    version: 0.1.0
+  nist800-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: nist800-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-20T17:28:59.110149016Z"
+    description: A Helm chart for Kubernetes
+    digest: 837c18b3dad67f308ecaa3565185e8ea892c2c49e2dceff20550181a48b638f8
+    name: nist800-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/nist800-policies-0.1.0/nist800-policies-0.1.0.tgz
+    version: 0.1.0
   pci-policies:
   - annotations:
       weave.works/category: Policies
@@ -52,6 +82,21 @@ entries:
     type: application
     urls:
     - https://github.com/weavegitops/catalog/releases/download/pci-policies-0.1.0/pci-policies-0.1.0.tgz
+    version: 0.1.0
+  soc2-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: soc2-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-20T17:28:59.235188936Z"
+    description: A Helm chart for Kubernetes
+    digest: 46d720ef6bd091d84ed8b6e0b31acb1abb98554e104ce52a6bfedcc0954979d9
+    name: soc2-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/soc2-policies-0.1.0/soc2-policies-0.1.0.tgz
     version: 0.1.0
   weave-policy-agent:
   - annotations:
@@ -86,4 +131,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/weave-policy-agent-0.6.1/weave-policy-agent-0.6.1.tgz
     version: 0.6.1
-generated: "2022-10-20T17:27:12.002538303Z"
+generated: "2022-10-20T17:28:59.235192736Z"
