@@ -29,6 +29,8 @@ spec:
       description: Number of worker nodes to create.
     - name: OWNER_EMAIL 
       description: E-Mail of Cluster Owner
+    - name: AWS_PEM_NAME
+      description: The name of your pem file.
 
   resourcetemplates:
     - apiVersion: v1
@@ -128,7 +130,7 @@ spec:
         additionalTags: 
           creator: ${OWNER_EMAIL}
         region: ${AWS_REGION}
-        sshKeyName: default
+        sshKeyName: ${AWS_PEM_NAME}
         version: ${KUBERNETES_VERSION}
         eksClusterName: ${CLUSTER_NAME}
 
