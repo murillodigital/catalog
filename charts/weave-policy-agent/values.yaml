@@ -31,8 +31,8 @@ policy-agent:
     # Enable audit functionality
     AGENT_ENABLE_AUDIT: "1"
 
-  accountId: ""
-  clusterId: ""
+    accountId: ""
+    clusterId: ""
 
 policySource:
   enabled: false
