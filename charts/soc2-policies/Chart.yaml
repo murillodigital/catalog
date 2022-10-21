@@ -1,7 +1,7 @@
 apiVersion: v2
 name: soc2-policies
-description: A Helm chart for Kubernetes
-
+description: A Wewave Policy chart for SOC2 Type I
+home: https://github.com/weavegitops/catalog
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives

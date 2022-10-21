@@ -12,7 +12,7 @@ Those who would like to contribute to this repository should create a branch wit
 `<username>/something-short-that-makes-sense`
 
 for example:
-`tonyjchong/reset-everything`
+`tonyjchong/branch-name`
 
 
 # How to create / update a Profile
@@ -40,11 +40,9 @@ When you create a PR to merge into `main`, let someone on the Platform Dev Team 
 * Delete all releases using the GH command. This only does 10 at a time so keep running it until the list is empty
 `gh release list | sed 's/|/ /' | awk '{print $1}' | while read -r line; do gh release delete -y "$line"; done`
 
-
-
 * Delete all the tags
 ```
 git fetch
-git tag -l | xargs -n 1 git push --delete origin
+git tag -l | grep policies |xargs -n 1 git push --delete origin
 ```
 
