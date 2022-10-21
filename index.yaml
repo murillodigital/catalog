@@ -1364,6 +1364,20 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/hipaa-policies-0.1.0/hipaa-policies-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: hipaa-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-21T00:05:42.323500336Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a395464fc814d2fb210d1ff07da4fcb9e27b517fc20377851366cfcd02a62f3
+    name: hipaa-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/hipaa-policies-0.0.1/hipaa-policies-0.0.1.tgz
+    version: 0.0.1
   influxdb:
   - annotations:
       weave.works/category: Database
@@ -2803,6 +2817,20 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/nist800-policies-0.1.0/nist800-policies-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: nist800-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-21T00:05:42.427611448Z"
+    description: A Helm chart for Kubernetes
+    digest: bc500191800caeb1507a553cf1a59d1442a19e2af7872e14bcaa89d172d5dbf0
+    name: nist800-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/nist800-policies-0.0.1/nist800-policies-0.0.1.tgz
+    version: 0.0.1
   node:
   - annotations:
       weave.works/category: Infrastructure
@@ -3188,6 +3216,20 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/pci-policies-0.1.0/pci-policies-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: pci-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-21T00:05:42.530260443Z"
+    description: A Helm chart for Kubernetes
+    digest: 86d04bdea7e36e7722d802be2aba86508bcfb4d3d518fef59e64fbeca5f8ebf6
+    name: pci-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/pci-policies-0.0.1/pci-policies-0.0.1.tgz
+    version: 0.0.1
   phpbb:
   - annotations:
       weave.works/category: Forum
@@ -3769,6 +3811,20 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/soc2-policies-0.1.0/soc2-policies-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: soc2-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-21T00:05:42.642239038Z"
+    description: A Helm chart for Kubernetes
+    digest: a8d6d232246ec3dfaf8d7914165e20c23ad091d019b821fabff7a2e752a8dbba
+    name: soc2-policies
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/soc2-policies-0.0.1/soc2-policies-0.0.1.tgz
+    version: 0.0.1
   solr:
   - annotations:
       weave.works/category: Infrastructure
@@ -4616,4 +4672,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/zookeeper-0.0.1/zookeeper-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-20T23:12:07.020151484Z"
+generated: "2022-10-21T00:05:42.642280339Z"
