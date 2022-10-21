@@ -22,15 +22,15 @@ If you want your chart to show up as a `Profile` in WGE, then you must add the f
 
 ```
 annotations:
-  "weave.works/profile": pci-policies
+  "weave.works/profile": <profile-name>
   # The following 2 are optional but come in handy
-  "weave.works/category": Policies
-  "weave.works/layer": layer-2
+  "weave.works/category": <Category>
+  "weave.works/layer": <layer-X>
 ```
 
 
-## Usage
-Just add the chart to `./charts` and the let the GH Action do the rest. 
+## Creating a PR
+When you create a PR to merge into `main`, let someone on the Platform Dev Team to review. Once the change is merged, the GitHub action will publish the update for use.  
 
 ## Test
 
