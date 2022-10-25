@@ -2066,6 +2066,45 @@ entries:
   mariadb:
   - annotations:
       weave.works/category: Database
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://charts.bitnami.com/bitnami
+        - name: Upstream Project
+          url: https://github.com/bitnami/containers/tree/main/bitnami/mariadb
+      weave.works/operator: "true"
+      weave.works/profile: mariadb
+      weave.works/profile-ci: |-
+        - "gke"
+        - "kind"
+        - "eks"
+    apiVersion: v2
+    created: "2022-10-25T17:38:04.487197091Z"
+    dependencies:
+    - name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.3.3
+    description: A Weaveworks Helm chart for the mariadb Profile
+    digest: 4fa5a7d3e77c97de207447b90cca0c62e0761a898b3d004c8fae29bf3fa632db
+    home: https://github.com/weavegitops/catalog
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: mariadb
+    sources:
+    - https://charts.bitnami.com/bitnami
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/mariadb-0.0.5/mariadb-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      weave.works/category: Database
       weave.works/layer: layer-0
       weave.works/links: |
         - name: Chart Sources
@@ -4614,4 +4653,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/zookeeper-0.0.1/zookeeper-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-25T17:18:08.079569432Z"
+generated: "2022-10-25T17:38:04.487268756Z"
