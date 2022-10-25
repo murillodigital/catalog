@@ -2,7 +2,7 @@ apiVersion: v2
 name: mariadb
 description: A Weaveworks Helm chart for the mariadb Profile
 type: application
-version: 0.0.4
+version: 0.0.5
 dependencies:
   - name: mariadb
     version: "11.3.3"
@@ -27,7 +27,6 @@ maintainers:
 annotations:
   "weave.works/profile": mariadb
   "weave.works/category": Database
-  "weave.works/layer": layer-0
   "weave.works/operator": "true"
   "weave.works/links": |
     - name: Chart Sources
