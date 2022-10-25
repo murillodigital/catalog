@@ -2645,6 +2645,45 @@ entries:
   mysql:
   - annotations:
       weave.works/category: Database
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://charts.bitnami.com/bitnami
+        - name: Upstream Project
+          url: https://github.com/bitnami/containers/tree/main/bitnami/mysql
+      weave.works/operator: "true"
+      weave.works/profile: mysql
+      weave.works/profile-ci: |-
+        - "gke"
+        - "kind"
+        - "eks"
+    apiVersion: v2
+    created: "2022-10-25T18:23:50.143540895Z"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.4.1
+    description: A Weaveworks Helm chart for the mysql Profile
+    digest: 4454be68f82f293f2b32264b85c76bd5c4c3c833ad35242c47f29d267d98c512
+    home: https://github.com/weavegitops/catalog
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availability
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: mysql
+    sources:
+    - https://charts.bitnami.com/bitnami
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/mysql-0.0.2/mysql-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      weave.works/category: Database
       weave.works/layer: layer-0
       weave.works/links: |
         - name: Chart Sources
@@ -2682,6 +2721,29 @@ entries:
     type: application
     urls:
     - https://github.com/weavegitops/catalog/releases/download/mysql-0.0.1/mysql-0.0.1.tgz
+    version: 0.0.1
+  mysql-policies:
+  - annotations:
+      weave.works/category: Database
+      weave.works/profile: mysql-policies
+    apiVersion: v2
+    created: "2022-10-25T18:23:50.289256294Z"
+    description: A Weaveworks Helm chart of Policies for the Redis Profile
+    digest: ef9786d541eebdb7ca042e7a6880954865b74b6e7bcdf1b005482bc5046305a5
+    home: https://github.com/weavegitops/catalog
+    keywords:
+    - mysql
+    - policies
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: mysql-policies
+    sources:
+    - https://weavegitops.github.io/catalog
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/mysql-policies-0.0.1/mysql-policies-0.0.1.tgz
     version: 0.0.1
   nats:
   - annotations:
@@ -4675,4 +4737,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/zookeeper-0.0.1/zookeeper-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-25T18:04:00.563663701Z"
+generated: "2022-10-25T18:23:50.289461996Z"
