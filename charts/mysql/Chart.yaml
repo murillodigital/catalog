@@ -2,7 +2,7 @@ apiVersion: v2
 name: mysql
 description: A Weaveworks Helm chart for the mysql Profile
 type: application
-version: 0.0.1
+version: 0.0.2
 dependencies:
   - name: mysql
     version: "9.4.1"
@@ -27,7 +27,6 @@ maintainers:
 annotations:
   "weave.works/profile": mysql
   "weave.works/category": Database
-  "weave.works/layer": layer-0
   "weave.works/operator": "true"
   "weave.works/links": |
     - name: Chart Sources

@@ -1,0 +1,26 @@
+apiVersion: v2
+name: mysql-policies
+description: A Weaveworks Helm chart of Policies for the Redis Profile
+type: application
+version: 0.0.1
+# dependencies:
+#   - name: weave-policy-agent
+#     version: "0.6.1"
+#     repository: "https://weavegitops.github.io/catalog"
+kubeVersion: ">=1.16.0-0"
+home: https://github.com/weavegitops/catalog
+sources:
+  - "https://weavegitops.github.io/catalog"
+
+keywords:
+- mysql
+- policies
+
+
+maintainers:
+  - name: Weaveworks
+    email: support@weave.works
+
+annotations:
+  "weave.works/profile": mysql-policies
+  "weave.works/category": Database
