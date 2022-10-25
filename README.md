@@ -34,6 +34,40 @@ When you create a PR to merge into `main`, let someone on the Platform Dev Team 
 
 ## Test
 
+Set up your management cluster to sync with this source. Typically in : `./clusters/management/profiles/`
+
+```
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  creationTimestamp: null
+  name: weaveworks-charts # Don't change this
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://weavegitops.github.io/catalog
+status: {}
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: weaveworks-catalog
+  namespace: default
+spec:
+  interval: 1m
+  chart:
+    spec:
+      chart: catalog
+      sourceRef:
+        kind: HelmRepository
+        name: weaveworks-charts
+        namespace: flux-system
+      version: 0.0.19
+  install:
+    crds: CreateReplace
+```
+
+Once you're WGE is all set up, the catalog will be installed and you should be able to see the `Templates` page become populated in the WGE UI. 
 
 ## Resetting everyting
 
