@@ -2146,6 +2146,33 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/mariadb-galera-0.0.1/mariadb-galera-0.0.1.tgz
     version: 0.0.1
+  mariadb-policies:
+  - annotations:
+      weave.works/category: Database
+      weave.works/profile: mariadb-policies
+    apiVersion: v2
+    created: "2022-10-25T17:18:08.079526032Z"
+    dependencies:
+    - name: weave-policy-agent
+      repository: https://weavegitops.github.io/catalog
+      version: 0.6.1
+    description: A Weaveworks Helm chart of Policies for the mariadb Profile
+    digest: 4800416fa6df8b0382d7a970a4e8ca5510966e7be7a4eafdee6d3688617b5c86
+    home: https://github.com/weavegitops/catalog
+    keywords:
+    - mariadb
+    - policies
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: mariadb-policies
+    sources:
+    - https://weavegitops.github.io/catalog
+    type: application
+    urls:
+    - https://github.com/weavegitops/catalog/releases/download/mariadb-policies-0.0.1/mariadb-policies-0.0.1.tgz
+    version: 0.0.1
   matomo:
   - annotations:
       weave.works/category: Analytics
@@ -4587,4 +4614,4 @@ entries:
     urls:
     - https://github.com/weavegitops/catalog/releases/download/zookeeper-0.0.1/zookeeper-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-24T17:56:09.20262768Z"
+generated: "2022-10-25T17:18:08.079569432Z"
