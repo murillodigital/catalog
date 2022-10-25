@@ -2,11 +2,11 @@ apiVersion: v2
 name: mariadb-policies
 description: A Weaveworks Helm chart of Policies for the mariadb Profile
 type: application
-version: 0.0.1
-dependencies:
-  - name: weave-policy-agent
-    version: "0.6.1"
-    repository: "https://weavegitops.github.io/catalog"
+version: 0.0.2
+# dependencies:
+#   - name: weave-policy-agent
+#     version: "0.6.1"
+#     repository: "https://weavegitops.github.io/catalog"
 kubeVersion: ">=1.16.0-0"
 home: https://github.com/weavegitops/catalog
 sources:
